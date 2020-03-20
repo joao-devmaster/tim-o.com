@@ -168,6 +168,187 @@ font-family: 'Bangers', ;
         }
 
         /* fim da página de inicio */
+
+
+
+        /* inicio da pagina de elenco  */
+
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: white;
+            font-family: 'Francois One', ;
+        font-family: 'Alfa Slab One', ;
+        font-family: 'Courgette', ;
+        font-family: 'Passion One', ;
+        font-family: 'Gloria Hallelujah', ;
+        font-family: 'Bangers', ;
+        
+        }
+        .topo{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            z-index: 99;
+        }
+        .container{
+            width: 100%;
+            height: 95px;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu_topo{
+                width: 65%;
+                height: 100%;
+                
+        }
+        .menu_topo a:hover{
+            background-color: #fff;
+            color: black;
+            box-shadow: 0px 0px 5px #000;
+        }
+        .menu_topo ul{
+            height: 100%;
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            justify-content: flex-end;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        
+        .menu_topo a{
+            text-decoration: none;
+            color: #dfdfdf;
+            padding: 12px 30px;
+            
+            
+        }
+        .imglogo{
+            width: 200px;
+            height: 180px;
+            padding-top: 30px;
+        }
+        .container2{
+            width: 100%;
+            height: 80px;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .nomedb{
+            width: 65%;
+            height: 100%;
+        }
+        .nomedb ul{
+            height: 100%;
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            padding-left: 70px;
+            justify-content: center;
+            font-family:  'Gloria Hallelujah';
+            font-size: 55px;
+          
+        }
+        .nomedb a{
+            text-decoration: none;
+            color:black;
+            padding: 30px;
+        }
+        
+        
+        .banner{
+            width: 100%;
+            height: 450px;
+            margin: 0 auto;
+            animation: carrosel 20s infinite;
+            background-repeat: no-repeat;
+        }
+        @keyframes carrosel {
+            0%, 30%  {background-image: url(./images/slide1.png); }
+               
+            35%, 65% {
+                background-image: url(./);
+            }
+                70%, 100% {
+             background-image: url(./);
+                }
+            }
+        
+        .elenco{
+        padding: 120px;
+        text-align: center;
+        font-family: 'Passion One';
+        font-size: 50px;
+        }
+        .imgjog{
+            width: 200px;
+            height: 200px;
+            
+        }
+        .posicao{
+            font-family:  'Courgette';
+            padding-top: 80px;
+            font-size: 40px;
+            text-align: center;
+            color: #C02E23;
+        
+        }
+            
+        
+        .nomedojog{
+            font-size: 25px;
+            font-family:  'Alfa Slab One';
+            text-align: center;
+        }
+        .goleiros{
+            width: 200px;
+            height: 200px;
+           
+          
+            
+        }
+        .linha{
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            padding: 60px;
+            
+        
+        }
+        .desc{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .rodape{
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            text-align: center;
+        }
+        .logorod{
+            width: 200px;
+            height: 200px;
+            
+        }
+        .nomerod{
+            color: white;
+            font-family: 'Gloria Hallelujah';
+            font-size: 35px;
+        }
+        .direitos{
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Fim da página de elenco  */
+        
     
        
 
